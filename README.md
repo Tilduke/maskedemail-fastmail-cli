@@ -8,4 +8,10 @@ In theory you should be able to generate an app password in `Password & Security
 JMAP_USERNAME=<username> JMAP_PASSWORD=<app password> node maskedemail-fastmail-cli.js
 ```
 
+If you are interested in checking out other parts of the JMAP API on fastmail then head over to the [fastmail samples project](https://github.com/fastmail/JMAP-Samples)   ... where I stole the base for this code. 
+
+## Dependency Note
+
+The newest versions (v3+) of `node-fetch` require EPM. The easiest way to make this code work is to install the latest V2 `node-fetch` via the command `npm install node-fetch@2`
+
 
