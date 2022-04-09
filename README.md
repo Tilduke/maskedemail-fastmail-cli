@@ -1,6 +1,7 @@
 # Fastmail Masked Email generator 
 
-This code doesn't actually work yet because the appropraite endpoint hasn't been exposed yet by FastMail. I'll update once the endpoint is available. 
+This code doesn't actually work yet because the appropraite endpoint hasn't been exposed yet by FastMail. I'll update once the endpoint is available.
+There is a working project (https://github.com/dvcrn/maskedemail-cli) but it relies on the main auth method (not the role limited app auth) and also hence doesn't support 2fa which is why I opted not to use it. 
 
 In theory you should be able to generate an app password in `Password & Security -> Third Party Apps -> Manage` and use the credentials in the following way to generate a masked email. 
 
